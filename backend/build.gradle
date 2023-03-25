@@ -16,6 +16,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'com.google.cloud:google-cloud-translate:2.1.11'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
